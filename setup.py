@@ -28,7 +28,7 @@ setup(
     url="https://github.com/Worldcycler/PyBinck",
     keywords=["Swagger", "BinckBank.OpenApi"],
     install_requires=REQUIRES,
-    packages=find_packages(),
+    packages=find_packages("swagger_client","swagger_client.api", "swagger_client.models"),
     include_package_data=True,
     long_description="""\
       BinckBank OpenAPI is an API Platform to access BinckBank&#39;s trading services.    Curious? Request your access key after reading the documentation on Github: https://github.com/binckbank-api/client-js#binck-openapi-documentation      # noqa: E501
